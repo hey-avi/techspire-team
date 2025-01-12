@@ -1,4 +1,4 @@
-```markdown
+
 # TechSpire Team Portfolio
 
 [![Deploy to GitHub Pages](https://github.com/hey-avi/techspire-team/actions/workflows/deploy.yml/badge.svg)](https://github.com/hey-avi/techspire-team/actions/workflows/deploy.yml)
@@ -159,21 +159,3 @@ Last updated: January 12, 2025
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Vite](https://vitejs.dev/)
-```
-
-This README.md includes:
-1. Project overview and features
-2. Installation instructions
-3. Tech stack details
-4. Project structure
-5. Customization guidance
-6. Deployment information
-7. Contributing guidelines
-8. Up-to-date timestamp
-9. Your GitHub username as the author
-
-Would you like me to:
-1. Add any specific features or sections?
-2. Modify any existing sections?
-3. Add more detailed technical information?
-4. Include any specific deployment instructions?
