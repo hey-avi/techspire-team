@@ -4,7 +4,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 1,
     name: "Avinash",
-    role: "Lead Developer",
+    role: "PIRO",
     avatar: "https://via.placeholder.com/400x400",
     bio: "Full-stack developer with expertise in React, Node.js, and cloud technologies. Leading the technical direction of TechSpire.",
     degree: "B.Tech in Computer Science",
@@ -21,39 +21,39 @@ export const teamMembers: TeamMember[] = [
     role: "IDEA Generator",
     avatar: "https://via.placeholder.com/400x400",
     bio: "Creative thinker and problem solver. Specializes in user experience design and product conceptualization.",
-    degree: "Masters in Design Innovation",
+    degree: "B.Tech in Computer Science",
     social: {
-      github: "https://github.com/neha-tech",
-      linkedin: "https://linkedin.com/in/neha-tech",
-      instagram: "https://instagram.com/neha.tech",
+      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/in/neha-kumari-4505382a9/",
+      instagram: "https://instagram.com/",
       email: "neha@techspire.dev"
     }
   },
   {
     id: 3,
     name: "Deepak",
-    role: "Bug Finder",
+    role: "KANJOOS + CHITIYA",
     avatar: "https://via.placeholder.com/400x400",
     bio: "Quality assurance expert with a keen eye for detail. Ensures robust and reliable software delivery.",
-    degree: "B.E. in Software Engineering",
+    degree: "B.Tech in Computer Science",
     social: {
-      github: "https://github.com/deepak-debug",
-      linkedin: "https://linkedin.com/in/deepak-debug",
-      instagram: "https://instagram.com/deepak.debug",
+      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/in/deepak-verma-6476112a3/",
+      instagram: "https://instagram.com/",
       email: "deepak@techspire.dev"
     }
   },
   {
     id: 4,
     name: "Sanjana",
-    role: "Web Designer",
+    role: "Veli",
     avatar: "https://via.placeholder.com/400x400",
     bio: "Creative web designer with a passion for creating beautiful and functional user interfaces.",
-    degree: "BFA in Digital Design",
+    degree: "B.Tech in Computer Science",
     social: {
-      github: "https://github.com/sanjana-design",
-      linkedin: "https://linkedin.com/in/sanjana-design",
-      instagram: "https://instagram.com/sanjana.design",
+      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/in/sanjana-kumari-1217b52a6/",
+      instagram: "https://instagram.com/",
       email: "sanjana@techspire.dev"
     }
   }
