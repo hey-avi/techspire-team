@@ -10,12 +10,13 @@ function App() {
   // Smooth scroll implementation
   useEffect(() => {
     const handleSmoothScroll = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (target.tagName === 'A' && target.hash) {
+      const target = e.target as HTMLAnchorElement; // Changed to HTMLAnchorElement
+      if (target.tagName === 'A' && target.getAttribute('href')?.startsWith('#')) {
         e.preventDefault();
-        const element = document.querySelector(target.hash);
-        if (element) {
-          element.scrollIntoView({
+        const hashId = target.getAttribute('href');
+        if (hashId) {
+          const element = document.querySelector(hashId);
+          element?.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
           });
