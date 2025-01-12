@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>TechSpire Team - Innovating for Tomorrow</title>
+    <meta name="title" content="TechSpire Team - Innovating for Tomorrow">
+    <meta name="description" content="Meet the innovative minds behind TechSpire - where technology meets inspiration.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hey-avi.github.io/techspire-team/">
+    <meta property="og:title" content="TechSpire Team - Innovating for Tomorrow">
+    <meta property="og:description" content="Meet the innovative minds behind TechSpire - where technology meets inspiration.">
+    <meta property="og:image" content="https://hey-avi.github.io/techspire-team/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hey-avi.github.io/techspire-team/">
+    <meta property="twitter:title" content="TechSpire Team - Innovating for Tomorrow">
+    <meta property="twitter:description" content="Meet the innovative minds behind TechSpire - where technology meets inspiration.">
+    <meta property="twitter:image" content="https://hey-avi.github.io/techspire-team/og-image.png">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1E293B" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    
+    <!-- PWA Tags -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="/src/styles/index.css" as="style">
+    <link rel="preload" href="/src/main.tsx" as="script" type="module">
+  </head>
+  <body class="bg-white dark:bg-gray-900 transition-colors duration-300">
+    <!-- Root Element -->
+    <div id="root">
+      <!-- React App will be mounted here -->
+      <noscript>
+        <div class="flex min-h-screen items-center justify-center text-center p-4">
+          <div>
+            <h1 class="text-2xl font-bold text-gray-900 mb-4">JavaScript is required</h1>
+            <p class="text-gray-600">
+              Please enable JavaScript to view the TechSpire Team website.
+            </p>
+          </div>
+        </div>
+      </noscript>
+    </div>
+
+    <!-- Loading State (Optional - will be hidden once React loads) -->
+    <div id="loading" class="fixed inset-0 flex items-center justify-center bg-white dark:bg-gray-900 z-50">
+      <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Fallback for older browsers -->
+    <script nomodule>
+      document.body.innerHTML = 
+        '<div class="flex min-h-screen items-center justify-center text-center p-4">' +
+        '<div>' +
+        '<h1 class="text-2xl font-bold text-gray-900 mb-4">Browser Not Supported</h1>' +
+        '<p class="text-gray-600">' +
+        'Please use a modern browser to view the TechSpire Team website.' +
+        '</p>' +
+        '</div>' +
+        '</div>';
+    </script>
+  </body>
+</html>
