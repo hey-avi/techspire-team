@@ -10,7 +10,7 @@ export const teamMembers: TeamMember[] = [
     degree: "B.Tech in Computer Science",
     social: {
       github: "https://github.com/hey-avi",
-      linkedin: "https://linkedin.com/in/hey-avi",
+      linkedin: "https://www.linkedin.com/in/just-a-fresher/",
       instagram: "https://instagram.com/hey.avi",
       email: "avinash@techspire.dev"
     }
