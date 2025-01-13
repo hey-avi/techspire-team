@@ -82,7 +82,7 @@ const CallToActionButton: FC = () => (
 const HeroImage: FC = () => (
   <div className="mt-12">
     <motion.img
-      src="/images/hero-image.png" // Make sure this image exists in your public folder
+      src="https://as2.ftcdn.net/v2/jpg/06/45/69/17/1000_F_645691769_kDGC0KZcRNw8Zmag6oLNnfJ9Gflp17oo.jpg" // Make sure this image exists in your public folder
       alt="Team collaboration"
       className="mx-auto rounded-lg shadow-xl dark:opacity-90"
       initial={{ opacity: 0, scale: 0.8 }}
