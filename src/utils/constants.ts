@@ -74,3 +74,26 @@ export const siteConfig = {
     email: 'team@techspire.dev'
   }
 };
+// Add this to: src/utils/constants.ts
+// Add this alongside your existing constants
+
+import { Project } from '../types/project';
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "TechSpire Team Website",
+    description: "Our team portfolio website showcasing our skills, projects, and journey. Built with modern web technologies focusing on responsive design and smooth animations.",
+    githubUrl: "https://github.com/hey-avi/techspire-team",
+    technologies: ["TypeScript", "React", "Tailwind CSS", "Framer Motion"],
+    thumbnail: "/images/techspire-thumb.png"  // You'll need to add this image later
+  },
+  {
+    id: 2,
+    title: "IRCTC Automatic Tatkal Booking System",
+    description: "An automated system for booking tatkal tickets on IRCTC platform. Features include quick form filling, automated captcha handling, and multiple payment options integration.",
+    githubUrl: "https://github.com",  // You can update this later
+    technologies: ["Python", "Selenium", "OpenCV", "PyAutoGUI"],
+    thumbnail: "/images/irctc-thumb.png"  // You'll need to add this image later
+  }
+];
