@@ -48,7 +48,7 @@ const Contact = () => {
               icon={FaLinkedin}
               title="LinkedIn"
               content="TechSpire"
-              href="https://linkedin.com/company/techspire"
+              href="https://www.linkedin.com/in/just-a-fresher/"
             />
           </motion.div>
         </div>
