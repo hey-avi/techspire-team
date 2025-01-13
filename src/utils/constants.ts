@@ -105,3 +105,37 @@ export const navigationLinks = [
   { name: 'Projects', href: '#projects' }, // Add this line
   { name: 'Contact', href: '#contact' },
 ];
+// Add to: src/utils/constants.ts
+
+import { Milestone } from '../types/roadmap';
+
+export const roadmapMilestones: Milestone[] = [
+  {
+    id: 1,
+    title: "Team Formation",
+    description: "Forming our team and establishing core values and goals",
+    date: "2024 Q4",
+    status: "completed"
+  },
+  {
+    id: 2,
+    title: "Website Launch",
+    description: "Developing and launching our team portfolio website",
+    date: "2025 Q1",
+    status: "current"
+  },
+  {
+    id: 3,
+    title: "IRCTC Project",
+    description: "Development of Automated Tatkal Booking System",
+    date: "2025 Q2",
+    status: "current"
+  },
+  {
+    id: 4,
+    title: "Future Projects",
+    description: "Expanding our portfolio with innovative solutions",
+    date: "2025 Q3",
+    status: "upcoming"
+  }
+];
