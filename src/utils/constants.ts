@@ -92,7 +92,7 @@ export const projects: Project[] = [
     description: "Our team portfolio website showcasing our skills, projects, and journey. Built with modern web technologies focusing on responsive design and smooth animations.",
     githubUrl: "https://github.com/hey-avi/techspire-team",
     technologies: ["TypeScript", "React", "Tailwind CSS", "Framer Motion"],
-    thumbnail: "https://techspire.nl/wp-content/uploads/2022/09/Logo.png"
+    thumbnail: "https://miro.medium.com/v2/resize:fit:1168/1*EbWvslyoHL4f_Ywn219tSQ.png"
   },
   {
     id: 2,
