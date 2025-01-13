@@ -97,3 +97,11 @@ export const projects: Project[] = [
     thumbnail: "/images/irctc-thumb.png"  // You'll need to add this image later
   }
 ];
+// Update in: src/utils/constants.ts
+
+export const navigationLinks = [
+  { name: 'Home', href: '#home' },
+  { name: 'Team', href: '#team' },
+  { name: 'Projects', href: '#projects' }, // Add this line
+  { name: 'Contact', href: '#contact' },
+];
