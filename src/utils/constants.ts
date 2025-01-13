@@ -62,6 +62,7 @@ export const teamMembers: TeamMember[] = [
 export const navigationLinks = [
   { name: 'Home', href: '#home' },
   { name: 'Team', href: '#team' },
+   { name: 'Roadmap', href: '#roadmap' },
   { name: 'Contact', href: '#contact' },
 ];
 
