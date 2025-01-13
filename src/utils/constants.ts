@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     social: {
       github: "https://github.com/hey-avi",
       linkedin: "https://www.linkedin.com/in/just-a-fresher/",
-      instagram: "https://instagram.com/hey.avi",
+      instagram: "https://instagram.com/",
       email: "avinash@techspire.dev"
     }
   },
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     id: 2,
     title: "IRCTC Automatic Tatkal Booking System",
     description: "An automated system for booking tatkal tickets on IRCTC platform. Features include quick form filling, automated captcha handling, and multiple payment options integration.",
-    githubUrl: "https://github.com/hey-avi/irctc-auto-booking",  // Updated with proper URL format
+    githubUrl: "https://github.com/hey-avi/",  // Updated with proper URL format
     technologies: ["Python", "Selenium", "OpenCV", "PyAutoGUI"],
     thumbnail: "https://www.en.etemaaddaily.com/pages/world/national/9396railways.jpg"
   }
