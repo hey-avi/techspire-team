@@ -7,7 +7,8 @@ import Hero from './components/Hero';
 import TeamSection from './components/TeamSection';
 import MemberProfiles from './components/MemberProfile';
 import Contact from './components/Contact';
-import ProjectShowcase from './components/ProjectShowcase'; // Add this import
+import ProjectShowcase from './components/ProjectShowcase'; 
+import Roadmap from './components/Roadmap';
 
 function App() {
   // Smooth scroll implementation (keep existing code)
@@ -38,7 +39,8 @@ function App() {
         <main>
           <Hero />
           <TeamSection />
-          <ProjectShowcase /> {/* Add this line */}
+          <Roadmap /> 
+          <ProjectShowcase />
           <MemberProfiles />
           <Contact />
         </main>
