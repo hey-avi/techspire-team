@@ -10,7 +10,7 @@ export const teamMembers: TeamMember[] = [
     id: 1,
     name: "Avinash",
     role: "Lead Developer",  // Professional role title
-    avatar: "https://via.placeholder.com/400x400",
+    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFXl3lksTMByw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714303630335?e=1742428800&v=beta&t=JC8CdSHDjUs5Hyuizfk6ila-XkMnmIeZccV9uMgTiAg",
     bio: "Full-stack developer with expertise in React, Node.js, and cloud technologies. Leading the technical direction of TechSpire.",
     degree: "B.Tech in Computer Science",
     social: {
